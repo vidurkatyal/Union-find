@@ -13,7 +13,6 @@ void Union(int x,int y){
 	pa[xset] = yset;
 }
 int main(){
-// add functionality here
 	int X[MAXN];
 	for (int i=0; i<n;i++){
 		Union(X[0],X[i]);
