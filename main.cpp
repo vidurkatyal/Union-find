@@ -6,6 +6,12 @@ int find(int x,int y){
 		x=find(pa[x]);
 	return x;
 }
+void Union(int x,int y){
+	int xset=find(x);
+	int yset=find(y);
+	if(xset == yset ) return;
+	pa[xset] = yset;
+}
 int main(){
 // add functionality here
 }
