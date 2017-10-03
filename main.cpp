@@ -14,4 +14,8 @@ void Union(int x,int y){
 }
 int main(){
 // add functionality here
+	int X[MAXN];
+	for (int i=0; i<n;i++){
+		Union(X[0],X[i]);
+	}
 }
