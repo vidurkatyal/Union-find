@@ -2,7 +2,7 @@
 
 typedef long long ll;
 
-const int maxn = 2000005;\
+const int maxn = 2000005;
 const ll mod = 1000000007;
 ll inv[maxn],fact[maxn];
 
